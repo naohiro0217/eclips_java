@@ -11,6 +11,8 @@ public class Human03 {
 		this.profession = "プログラマー";
 	}
 	
+	
+	
 	public String getProfile() {
 		return "年齢は" + this.age + "、職業は" + this.profession;
 	}
