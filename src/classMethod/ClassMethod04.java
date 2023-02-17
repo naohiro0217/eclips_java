@@ -9,8 +9,6 @@ public class ClassMethod04 {
 		Human04.staticMethodPrint();
 		System.out.println(Human04.GREETING);
 
-
-
 		yamada.instanceMethodPrint();
 	}
 }
