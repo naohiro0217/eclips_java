@@ -6,6 +6,7 @@ public class if_1 {
 		if (x < 100) {
 			System.out.println("条件に一致したので");
 			System.out.println("処理を実行します");
+			
 		}
 	}
 }
