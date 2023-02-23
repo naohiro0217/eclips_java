@@ -15,9 +15,6 @@ public class Staffinfo {
 
 		System.out.println(yamada.name);
 
-
-
-
 	}
 
 }
