@@ -9,6 +9,7 @@ public class BmiCalc {
 	public static void main(String[] args) {
 		double weight,height,bmi;
 
+
 		weight = 62;
 //		height = 1.71;
 		height = 171;

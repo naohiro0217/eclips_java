@@ -13,6 +13,7 @@ public class BmiCalc3 {
 //		height = 1.71;
 //		height = 171;
 
+
 		Scanner stdIn = new Scanner(System.in);
 		System.out.println("体重は？(kg)　：");
 		weight = stdIn.nextDouble();
