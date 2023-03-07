@@ -1,4 +1,4 @@
-package naohiro.javastudy;
+package practice;
 
 public class Person {
 
