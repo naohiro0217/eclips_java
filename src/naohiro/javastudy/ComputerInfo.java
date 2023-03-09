@@ -22,7 +22,7 @@ public class ComputerInfo {
 		Computer desktop2 = desktop;
 		
 		desktop2.os = "Ubuntu";
-		
+
 		System.out.println("\nOS: " + desktop2.os);
 		System.out.println("Memory: " + desktop2.memory + "GB");
 		System.out.println("Storage: " + desktop2.storage);
@@ -34,3 +34,4 @@ public class ComputerInfo {
 	}
 
 }
+ 
