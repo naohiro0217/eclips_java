@@ -1,20 +1,24 @@
 package practice;
 
 public class Car {
-	private double fuelCost;
-	private double fuelAmount;
-	
-	public Car (double fuelCost, double fuelAmount) {
-		this.fuelCost = fuelCost;
-		this.fuelAmount = fuelAmount;
+	// 燃費（Km/L）
+    private double fuelCost;
+    // 残量（L）
+    private double fuelAmount;
+
+    public Car(double fuelCost, double fuelAmount) {
+    	this.fuelCost = fuelCost;
+    	this.fuelAmount = fuelAmount;
     }
 
     public void move(int km) {
-        System.out.println(km + " km 走ります");
-        this.fuelAmount -= (km / fuelCost);
+    	System.out.println(km + "走ります");
+    	this.fuelAmount -= (km / fuelCost);
+    }
+//    ここから
+    public double getFuelAmount() {
+    	return this.fuelAmount;
     }
 
-    public double getFuelAmount() {
-        return this.fuelAmount;
-	}
+
 }
