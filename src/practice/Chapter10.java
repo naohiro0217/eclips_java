@@ -34,6 +34,8 @@ public class Chapter10 {
         System.out.println("インデックス " + index + " の要素は " + array[index] + " です");
     }
 
+
+
     public static void throwSQLException() throws SQLException {
         throw new SQLException("SQLエラーです");
     }
