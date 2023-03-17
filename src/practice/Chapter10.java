@@ -27,6 +27,8 @@ public class Chapter10 {
         System.out.println("mainメソッド終了");
     }
 
+
+
     public static void validIndex(int[] array, int index) {
         if (array.length <= index) {
             throw new IllegalArgumentException(index + " はサイズの範囲外です");
