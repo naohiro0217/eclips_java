@@ -16,10 +16,6 @@ public class Modric {
 	    return firstName + " " + lastName;
 	  }
 
-
-
-
-
 	}
 
 
