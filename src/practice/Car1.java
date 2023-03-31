@@ -4,7 +4,7 @@ public class Car1 {
 	private double fuelCost;
 	private double fuelAmount;
 
-	public Car(double fuelCost, double fuelAmount) {
+	public void Car(double fuelCost, double fuelAmount) {
         this.fuelCost = fuelCost;
         this.fuelAmount = fuelAmount;
     }
